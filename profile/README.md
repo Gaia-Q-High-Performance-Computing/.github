@@ -11,7 +11,7 @@
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ```mermaid
-**graph TD
+graph TD
     %% User Interactions
     User([User]) -->|1. Define BWB Parameters| UI[GAIA-Q-UI]
     User -->|2. Configure Simulation| UI
