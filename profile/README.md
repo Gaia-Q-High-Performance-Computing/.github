@@ -69,14 +69,14 @@ graph TD
     KGraph -->|Retrieve Knowledge| CertAgent
     
     %% Style nodes
-    classDef user fill:#f9f,stroke:#333,stroke-width:2px
-    classDef ui fill:#f9d,stroke:#333,stroke-width:2px
-    classDef api fill:#ad5,stroke:#333,stroke-width:2px
-    classDef agent fill:#fc8,stroke:#333,stroke-width:2px
-    classDef service fill:#8cc,stroke:#333,stroke-width:2px
-    classDef storage fill:#bbb,stroke:#333,stroke-width:2px
-    classDef external fill:#d88,stroke:#333,stroke-width:2px
-    classDef knowledge fill:#c9f,stroke:#333,stroke-width:2px
+    classDef user fill:#f9f,stroke:#333,stroke-width:2px,color:#333333
+    classDef ui fill:#f9d,stroke:#333,stroke-width:2px,color:#333333
+    classDef api fill:#ad5,stroke:#333,stroke-width:2px,color:#333333
+    classDef agent fill:#fc8,stroke:#333,stroke-width:2px,color:#333333
+    classDef service fill:#8cc,stroke:#333,stroke-width:2px,color:#333333
+    classDef storage fill:#bbb,stroke:#333,stroke-width:2px,color:#333333
+    classDef external fill:#d88,stroke:#333,stroke-width:2px,color:#333333
+    classDef knowledge fill:#c9f,stroke:#333,stroke-width:2px,color:#333333
     
     class User user
     class UI ui
@@ -85,5 +85,5 @@ graph TD
     class BWBGen,MeshGen,OFConn,JobSched,ResultsProc,QAOAOpt,DocGen,VizEngine service
     class GeoStore,MeshStore,ResultsStore,ResultsDB,OptResults,CertDocs storage
     class OpenFOAM,QuantComp external
-    class KGraph knowled
+    class KGraph knowledge
 ```
